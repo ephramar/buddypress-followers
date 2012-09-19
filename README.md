@@ -25,7 +25,7 @@ The forums on wordpress.org are rarely checked.
 
 ### Changelog ###
 
-1.1.1
+#### 1.1.1 ####
 * Show the following / followers tabs even when empty.
 * Add better support for WP Toolbar.
 * Add better support for parent / child themes.
@@ -35,7 +35,7 @@ The forums on wordpress.org are rarely checked.
 * Fix issue when a user has disabled new follow notifications.
 * Adjust some hooks so 3rd-party plugins can properly run their code.
 
-1.1
+#### 1.1 ####
 * Add BuddyPress 1.5 compatibility.
 * Add WP Admin Bar support.
 * Add localization support.
@@ -47,5 +47,5 @@ The forums on wordpress.org are rarely checked.
 * Fix BuddyBar issues when a logged-in user is on another member's page.
 * Thanks to mrjarbenne for sponsoring this release.
 
-1.0
+#### 1.0 ####
 * Initial release.
