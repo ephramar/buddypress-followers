@@ -94,15 +94,15 @@ class BP_Follow {
 		global $wpdb;
 		
 		$q = $wpdb->get_results( $wpdb->prepare( "SELECT
-												COUNT(wp_bp_follow.leader_id),
-												wp_bp_follow.leader_id,
-												wp_users.user_nicename,
-												wp_users.user_email,
-												wp_users.user_url,
-												wp_users.display_name
-												FROM wp_bp_follow
-												LEFT JOIN wp_users
-												ON wp_users.ID = wp_bp_follow.leader_id" ) );		
+			COUNT(wp_bp_follow.leader_id),
+			wp_bp_follow.leader_id,
+			wp_users.user_nicename,
+			wp_users.user_email,
+			wp_users.user_url,
+			wp_users.display_name
+			FROM wp_bp_follow
+			LEFT JOIN wp_users
+			ON wp_users.ID = wp_bp_follow.leader_id" ) );		
 		return array( $q );
 	}
 
