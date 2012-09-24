@@ -39,7 +39,9 @@ class BP_Top_Follower_Widget extends WP_Widget {
 				<?php foreach( $q as $k ): ?>
 					<?php foreach( $k as $top_user ): ?>
 						<div class="item-avatar">
-							<a href="<?php echo get_bloginfo('url') . '/members/' . $top_user->user_nicename . '/profile'; ?>"><?php echo get_avatar( $top_user->leader_id, 50 ); ?></a>
+							<a href="<?php echo get_bloginfo('url') . '/members/' . $top_user->user_nicename . '/profile'; ?>">
+								<?php echo get_avatar( $top_user->leader_id, 50 ); ?>
+							</a>
 						</div>
 					<?php endforeach; ?>
 				<?php endforeach; ?>
